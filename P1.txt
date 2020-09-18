@@ -1,0 +1,8 @@
+function rentalCar(pname,age){
+	if(age<21){
+		return 'sorry i cant give you the key';
+	}
+	return 'have fine';
+}
+
+rentalCar('foulen',21);
